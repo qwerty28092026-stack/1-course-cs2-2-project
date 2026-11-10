@@ -1,0 +1,148 @@
+@media (max-width: 769px) {
+
+    /*====header=====*/
+
+    header.container {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px 20px;
+    }
+
+    /*===home section=====*/
+
+    #hom .container {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 32px;
+        padding-top: 20px;
+    }
+
+    .home-content {
+        width: 100%;
+    }
+
+    .home-content h1 {
+        font-size: 38px;
+    }
+
+    .home-links {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .home-lonks a:first-child {
+        margin-right: 0;
+    }
+
+    #home img {
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+        box-shadow: none;
+    }
+
+    /*====about section (#about0=========*/
+
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 32px;
+    }
+
+    .aboute-image img{
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+        box-shadow: none;
+    }
+
+    .about-facts {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .about-facts article {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    /*=====skils section (#skills)============*/
+
+    .skills-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    /*=======jourbey section (#experience)===========*/
+
+    .experience-container article {
+        flex-direction: column;
+        gap: 12px;
+        padding: 20px;
+    }
+
+    .experience-container article > h3 {
+        min-width: auto;
+    }
+
+    /*=======products section (#work)===========*/
+
+    .products-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+    
+    .products-container article {
+        width: 100%;
+        max-width: 360px;
+    }
+
+    /*=======legacy section (#testimonials)=======================*/
+
+
+    .testimonials-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .testimonials-container article {
+        width: 100%;
+        max-width: 360px;
+    }
+
+    /*============contact section (#contact) ===============*/
+
+    .contact-email, .contact-phone {
+        font-size: 20px;
+    }
+
+    .contact-links {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    
+
+}
+
+
+/*=============================================
+Extra small phone and fragmentation
+===========================================*/
+
+@media (max-width: 480px) {
+
+    .skills-container {
+        grid-template-columns: 1fr;
+    }
+}
